@@ -279,6 +279,7 @@ namespace OpenBabel
           }
           break;
         case 'l':
+        case 'L':
           if (ptr[2] == '\0') { // Cl
             return 17; // Chlorine
           }
@@ -889,6 +890,7 @@ namespace OpenBabel
           }
           break;
         case 'r':
+        case 'R':
           if (ptr[2] == '\0') { // br
             return 35; // Bromine
           }
@@ -920,6 +922,7 @@ namespace OpenBabel
           }
           break;
         case 'l':
+        case 'L':
           if (ptr[2] == '\0') { // cl
             return 17; // Chlorine
           }
